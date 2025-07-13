@@ -1,0 +1,211 @@
+*{
+	padding: 0;
+	margin-top: 0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color: rgb(13, 6, 119);
+}
+.medsos	ul li {
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+header h1{
+	float: left;
+	padding: 15px 0px;
+	color: rgb(13, 6, 119);
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: rgb(13, 6, 119);
+	color: #fff;
+}
+.active{
+	background-color: rgb(13, 6, 119);
+	color: #fff;
+}
+.banner{
+	height: 60vh;
+	background-image: url(../img/banner1.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(55, 58, 247, 0.6);
+}
+.banner h2{
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+}
+section{
+	padding: 50px 0;
+}
+section h3{
+	text-align: center;
+	padding: 20px 0;
+	color: rgb(13, 6, 119);
+}
+.about p{
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.contact{
+	background-color: rgb(13, 6, 119);
+}
+footer{
+	padding: 30px 0;
+	background-color: rgb(13, 6, 119);
+	color: #ffffff;
+	text-align: center;
+}
+/* Produk List */
+.produk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .item {
+    background: rgb(110, 110, 110);
+    width: 220px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(63, 36, 139, 0.2);
+    transition: transform .3s, box-shadow .3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    min-height: 430px; 
+  }  
+  
+  .item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+  }
+  
+  .item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .item p {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #f8f5f0;
+  }
+  
+  .item .harga {
+    font-weight: bold;
+  }
+  .item .deskripsi {
+    flex-grow: 1;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #f0f0f0;
+    margin-bottom: 12px;
+  }
+  
+  .btn-beli {
+    display: inline-block;
+    background-color: #284139;
+    color: #f8f5f0;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid #1e312f;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: auto;
+  }  
+  
+  /* Button */
+  .btn-beli,
+  .item a,
+  .checkout-btn {
+    display: inline-block;
+    background-color: #284139;
+    color: #f8f5f0;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid #1e312f;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+  }
+  
+  .btn-beli:hover,
+  .item a:hover,
+  .checkout-btn:hover {
+    background-color: #3b5b4f;
+    transform: translateY(-2px);
+  }
+  
+  /* Keranjang */
+  .keranjang-item {
+    background: #5f7260;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .keranjang-item p {
+    margin: 0;
+  }
+  
+  .kosong {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 50px;
+    color: #f8f5f0;
+  }
+
+

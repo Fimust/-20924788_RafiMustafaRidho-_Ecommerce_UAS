@@ -1,0 +1,80 @@
+*{
+        padding: 0;
+        margin-top: 0;
+        font-family: sans-serif;
+    }
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+    .medsos{
+        padding: 5px 0;
+        background-color: rgb(13, 6, 119);
+    }
+    .medsos	ul li {
+        display: inline-block;
+        color: white;
+        margin-right: 10px;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .container:after{
+        content: " ";
+        display: block;
+        clear: both;
+    }
+    
+    header h1{
+        float: left;
+        padding: 15px 0px;
+        color: rgb(13, 6, 119);
+    }
+    header ul{
+        float: right;
+    }
+    header ul li{
+        display: inline-block;
+    }
+    header ul li a{
+        padding: 25px 20px;
+        display: inline-block;
+    }
+    header ul li a:hover{
+        background-color: rgb(13, 6, 119);
+        color: #fff;
+    }
+    .active{
+        background-color: rgb(13, 6, 119);
+        color: #fff; 
+}
+.Kontak{
+    background-color:rgba(166, 166, 248, 0.726);
+}
+.box{
+    color: blue;
+}
+.box  .col-4{
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.box :after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 50px;
+    margin: 0 auto;
+}
+.box .col-4{
+    margin: 20px 0;
+}
